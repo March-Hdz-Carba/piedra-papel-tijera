@@ -1,0 +1,30 @@
+.cuadro {
+    position: relative;
+  }
+  
+.cuadro-hijo {
+    border-radius: 50px;
+    width: 800px;
+    height: 350px;
+    background-color:#2196f3;
+    /* centrar vertical y horizontalmente */
+    position: absolute;
+    left: 40%;
+    margin-top: 70px;
+	margin-left: -200px;
+  } 
+
+.cuadro-alert{
+    position: relative;
+}
+
+.cuadro-alert-hijo{
+    border-radius: 50px;
+    width: 800px;
+    height: 250px;
+    /* centrar vertical y horizontalmente */
+    position: absolute;
+    left: 50%;
+    margin-top: 450px;
+	margin-left: -200px;
+} 

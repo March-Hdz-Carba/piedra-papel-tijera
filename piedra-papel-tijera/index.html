@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">    
+    <title>Piedra, Papel o Tijera</title>
+</head>
+<body>
+    <div class="cuadro">
+        <div class="cuadro-hijo">
+            <h1 class="d-flex justify-content-center">PIEDRA, PAPEL O TIJERA</h1>
+            <div class="d-flex justify-content-center">
+                <div class="card align-items-center" style="width: 18rem; margin: 5%;">
+                    <img class="card-img-top" src="images\rock.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <button id="btn-piedra" type="button" class="btn btn-outline-primary">Piedra</button>
+                    </div>
+                </div>
+                <div class="card align-items-center" style="width: 18rem; margin: 5%;">
+                    <img class="card-img-top" src="images/paper.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <button id="btn-paper" type="button" class="btn btn-outline-primary">Papel</button>
+                    </div>
+                </div>
+                <div class="card align-items-center" style="width: 18rem; margin: 5%;">
+                    <img class="card-img-top" src="images/sissors.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <button id="btn-sissors" type="button" class="btn btn-outline-primary">Tijera</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="cuadro-alert">
+        <div id="messaje" class="cuadro-alert-hijo">
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
